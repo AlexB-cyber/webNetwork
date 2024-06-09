@@ -1,0 +1,29 @@
+.dialogs {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.message {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+.send {
+  justify-content: center;
+  display: flex;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 10px;
+}
