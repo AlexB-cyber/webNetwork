@@ -1,0 +1,21 @@
+.me {
+  display: block;
+  padding: 20px;
+  grid-template-columns: 3fr 9fr;
+  gap: 10px;
+}
+.me img {
+  border-radius: 5px;
+  width: 40%;
+}
+.posts {
+  margin:20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.posts img{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 50%;
+}

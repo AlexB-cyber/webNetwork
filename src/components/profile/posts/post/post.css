@@ -1,0 +1,11 @@
+.post {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+}
+.av-name {
+  display: flex;
+}
+.comm-text {
+  margin-top: 1px;
+}

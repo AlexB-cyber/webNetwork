@@ -1,0 +1,19 @@
+.posts {
+  margin-left: 0px;
+}
+.comm-ent {
+  display: flex;
+}
+.comm-ent input {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+}
+.comm-ent button {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  background-color: darkblue;
+  color: white;
+  padding: 10px 10px;
+}
