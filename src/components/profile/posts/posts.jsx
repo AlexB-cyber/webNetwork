@@ -15,7 +15,7 @@ function Posts() {
         <Post message="Класс!"/>
         <Post message="Вау!"/>
         <Post message="👋!"/>
-      </div>
+    </div>
   )
 }
 

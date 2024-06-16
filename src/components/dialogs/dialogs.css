@@ -3,23 +3,47 @@
   text-align: center;
   margin: auto;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.user a {
+  text-decoration: none;
+  color: white;
+}
+
+.user {
+  margin-top: 15.5px
+}
+.user:hover{
+  border-radius: 15px;
+  background: darkblue;
+}
+
 .message {
   display: flex;
   text-align: left;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.messages-container {
+  width: 50%;
+  text-align: center;
+}
+
+.dialogs-container {
+  width: 50%;
 }
 .send {
-  justify-content: center;
-  display: flex;
+  margin:20px 0 20px 0 ;
+  width: 100%;
 }
 input {
   border: none;
   outline: none;
   padding: 10px 10px;
 }
+
 button {
   border: none;
   outline: none;

@@ -9,8 +9,8 @@ function Profile() {
       <div className="me">
         <img src={Avatar1} className="Avatar1"/>
         <h2>Райaн Гослинг</h2>
-        <Posts/>
       </div>
+      <Posts/>
     </div>
   )
 } 
