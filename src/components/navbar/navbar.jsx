@@ -6,7 +6,7 @@ function Navbar() {
   return(
     <div className="Navbar">
       <NavLink to="/profile">Profile</NavLink>
-      <NavLink to="/recommended">Recommended</NavLink>
+      <NavLink to="/favorite">Favorite</NavLink>
       <NavLink to="/users">Users</NavLink>
       <NavLink to="/dialogs">Dialogs</NavLink>
     </div>

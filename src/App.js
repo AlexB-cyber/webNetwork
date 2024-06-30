@@ -4,6 +4,7 @@ import Header from './components/header/header.jsx'
 import Profile from './components/profile/profile.jsx'
 import Navbar from './components/navbar/navbar.jsx';
 import Dialogs from './components/dialogs/dialogs.jsx';
+import Favorite from './components/favorite/favorite.jsx';
 import { BrowserRouter, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min.js';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={Profile}/>
         <Route exact path="/profile" component={Profile}/>
         <Route exact path="/dialogs" component={Dialogs}/>
+        <Route exact path="/favorite" component={Favorite}/>
       </Switch>
     </div>
   );

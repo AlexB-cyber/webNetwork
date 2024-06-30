@@ -1,0 +1,59 @@
+.favorites {
+  margin: 20px 0 20px 20px;
+  display: flex;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.fav-text {
+  margin-left:20px;
+}
+.fav-name {
+  margin-right: 20px;
+}
+
+.fav-comm {
+  display: block;
+  font-weight: bold;
+}
+
+.like {
+  margin-top: 30px;
+  display: none;
+}
+
+label {
+  font-size: 18px;
+}
+
+.like1 {
+  display: none;
+}
+
+.like1 .like2 {
+  vertical-align: center;
+}
+
+input:checked~.like1 {
+  display: block;
+}
+
+input:checked~.like2 {
+  display: none;
+}
+
+input:disabled~.like2 {
+  display: block;
+}
+
+input:disabled~.like1 {
+  display: none;
+}
+
+/* input:disabled ~ label::before {
+  content: "❤️";
+}
+input:checked ~ label::after {
+  content: "🤍";
+} */
