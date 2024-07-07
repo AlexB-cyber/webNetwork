@@ -2,11 +2,15 @@
   text-align: center;
 }
 .Navbar a {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   padding: 10px;
   display: block;
   text-decoration: none;
   color: white;
+}
+.Navbar a:first-child {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .Navbar a:hover {
   background-color: rgb(11, 11, 78);

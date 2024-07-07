@@ -2,13 +2,16 @@
   margin: 20px 0 20px 20px;
   display: flex;
 }
+
 a {
   color: white;
   text-decoration: none;
 }
+
 .fav-text {
-  margin-left:20px;
+  margin-left: 20px;
 }
+
 .fav-name {
   margin-right: 20px;
 }
@@ -29,10 +32,6 @@ label {
 
 .like1 {
   display: none;
-}
-
-.like1 .like2 {
-  vertical-align: center;
 }
 
 input:checked~.like1 {

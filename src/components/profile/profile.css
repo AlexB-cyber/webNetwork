@@ -2,14 +2,14 @@
   display: block;
   padding: 20px;
   grid-template-columns: 3fr 9fr;
-  gap: 10px;
+  /* gap: 10px; */
 }
 .me img {
   border-radius: 5px;
-  width: 40%;
+  width: 30%;
 }
 .posts {
-  margin:20px;
+  margin: 10px 20px 20px 20px;
   padding: 20px;
   border-radius: 15px;
 }
