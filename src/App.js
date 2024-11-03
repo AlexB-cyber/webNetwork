@@ -13,9 +13,9 @@ function App(props) {
       <Header/>
       <Navbar/>
       <Switch>
-        <Route exact path="/" render={()=><Profile PostsData={props.state.PostsData}/>}/>
-        <Route exact path="/profile" render={()=><Profile PostsData={props.state.PostsData}/>}/>
-        <Route exact path="/dialogs" render={()=><Dialogs MessageItems={props.state.MessageItems} DialogNames={props.state.DialogNames}/>}/>
+        <Route exact path="/" render={()=><Profile PostsData={props.state.PostsData} NewPostText={props.state.NewPostText} dispatch={props.dispatch}/>}/>
+        <Route exact path="/profile" render={()=><Profile PostsData={props.state.PostsData} NewPostText={props.state.NewPostText} dispatch={props.dispatch}/>}/>
+        <Route exact path="/dialogs" render={()=><Dialogs NewMessageText={props.state.NewMessageText} MessageItems={props.state.MessageItems} dispatch={props.dispatch} DialogNames={props.state.DialogNames}/>}/>
         <Route exact path="/favorite" render={()=><Favorite FavoriteList={props.state.FavoriteList}/>}/>
       </Switch>
     </div>
